@@ -1,5 +1,7 @@
 import java.io.File;
+import java.text.Format;
 import java.util.ArrayList;
+import java.util.Date;
 
 import javax.xml.transform.Source;
 
@@ -22,7 +24,10 @@ public class UserProfile {
           return shared;
      }
 
-     public File exportRecords(Format format, ){}
+     public File exportRecords(Format format, Date start, Date end){
+          File file = null;
+          return file;
+     }
 
    
 }
