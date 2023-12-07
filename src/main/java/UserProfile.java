@@ -29,5 +29,9 @@ public class UserProfile {
           return file;
      }
 
+     public boolean importRecords(File csvFile) {
+          boolean isImported = false; 
+          return isImported;
+     }
    
 }

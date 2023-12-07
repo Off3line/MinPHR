@@ -1,4 +1,6 @@
 
-public class Source {
+public abstract class Source {
+    String name;
 
 }
+
