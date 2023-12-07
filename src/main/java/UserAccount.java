@@ -44,7 +44,7 @@ public class UserAccount {
         return isChanged;
     }
 
-    public boolean deleteAccount() { 
+    public boolean deleteAccount() {
         boolean isDeleted = false;
         
         return isDeleted;
