@@ -10,4 +10,20 @@ public class AppointmentService {
         return isScheduled;
 
     }
+
+    public Response cancelAppointment(Date cancelDate, int userId) {
+
+        Response response = null;
+
+        return response;
+        
+    }
+
+     public Response changeAppointment(Date changedate, int userId) {
+
+        Response response = null;
+
+        return response;
+        
+    }
 }

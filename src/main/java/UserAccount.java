@@ -25,6 +25,12 @@ public class UserAccount {
 
     }
 
+    public boolean requestSMSCode(String provider) {
+        boolean isRequested  = false;
+
+        return isRequested;
+    }
+
     public boolean verifySMSCode(String code) {
         boolean isVerified = false;
         

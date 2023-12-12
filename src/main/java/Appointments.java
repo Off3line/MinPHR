@@ -6,21 +6,8 @@ public class Appointments {
     private String medicalProfessional;
     private String status;
     private Payment payment;
+    private UserProfile userId;
 
 
-    public Response cancelAppointment(Date cancelDate) {
-
-        Response response = null;
-
-        return response;
-        
-    }
-
-     public Response changeAppointment(Date changedate) {
-
-        Response response = null;
-
-        return response;
-        
-    }
+    
 }
